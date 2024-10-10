@@ -152,3 +152,89 @@ html{
   display: inline-block;
   font-size: 1.6rem;
 }
+
+/* rating section */
+.rating{
+  background-color: rgb(248, 248, 248);
+  padding: 80px 64px;
+}
+
+.rating-heading h2{
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 900;
+  font-family: "Lato";
+  margin-bottom: 5rem;
+}
+
+.rating-companies, .rating-review, .rating-trust{
+  display: flex;
+  padding-right: 2rem;
+  border-right: 1px solid #ccc;
+  
+}
+
+.rating-content{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.rating-companies img{
+  max-width: 181px;
+  opacity: 0.3;
+  margin-right: 1rem;
+}
+
+.rating-review{
+  flex-direction: column;
+}
+
+.rating-review img{
+  width: 70px;
+  box-sizing: border-box;
+  margin-left: 1rem;
+}
+
+.rating-review p{
+  font-size: 1.5rem;
+  margin-top: 0.1rem;
+  max-width: 310px;
+  font-family: "montserrat";
+  margin-left: 1rem;
+  margin-right: 2rem;
+  font-weight: 500;
+}
+
+
+.rating-trust{
+  flex-direction: column;
+  padding-right: 2rem;
+  cursor: pointer;
+
+}
+
+.rating-trust .rating-4{
+  width: 100px;
+}
+
+.rating-trust p{
+  margin: 0;
+  margin-right: 3rem;
+  font-family: "Roboto";
+}
+
+.rating-trust p:first-child{
+  font-weight: 500;
+  font-size: 1.8rem;
+}
+
+.rating-os img{
+  width: 100px;
+  opacity: 0.3;
+  margin-right: 1rem;
+}
+
+.rating-os{
+  display: inline-block;
+}
