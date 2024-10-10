@@ -7,6 +7,8 @@ html{
   margin: 0 auto;
 }
 
+/* nav-bar */
+
 .nav-content {
   display: flex;
   align-items: center;
@@ -18,13 +20,12 @@ html{
   text-decoration: none;
   border: 2px solid #ccc;
   font-size: 1.6rem;
-  font-weight: 500;
   color: black;
   padding: 1.3rem 2rem;
   border-radius: 2.5rem;
   transition: border 0.15s;
   align-items: center;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
 }
 
@@ -34,4 +35,120 @@ html{
 
 .nav-logo{
   cursor: pointer;
+}
+
+/* Hero-content */
+
+.hero-left-content{
+  max-width: 500px;
+  width: 100%;
+  padding: 3rem;
+}
+
+.hero-content{
+  padding: 64px;
+}
+
+.hero-highlight{
+  display: inline;
+  color: dodgerblue;
+}
+
+.hero-heading{
+  font-size: 3rem;
+  font-family: "Playfair Display";
+}
+
+.hero-para p{
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 3rem;
+  overflow-wrap: break-word;
+  font-family: "Montserrat";
+}
+
+.hero-button{
+  margin-top: 6rem;
+  display: block;
+}
+
+.hero-button a{
+  border: 1px solid transparent;
+  text-decoration: none;
+  color: #fff;
+  background-color: #15B441;
+  align-items: center;
+  padding: 1.6rem 10rem;
+  border-radius: 2.5rem;
+  cursor: pointer;
+  font-size: 1.6rem;
+  transition: background-color 0.3s;
+  font-weight: 600;
+  font-family: "Lato";
+}
+
+.hero-button a:hover{
+  background-color: #5ED981;
+}
+
+.hero-right-content{
+  max-width: 600px;
+  
+}
+
+.hero-video{
+  width: 100%;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.hero-down-content{
+  display: flex;
+  justify-content: space-between;
+  font-family: "Montserrat";
+  font-weight: 500;
+}
+
+.hero-properties{
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.hero-properties img{
+  width: 3rem;
+  margin-right: 1rem;
+}
+
+.hero-img1::after {
+  content: 'Math';
+  display: inline-block;
+  font-size: 1.6rem;
+}
+
+.hero-img2::after {
+  content: 'Data Analysis';
+  display: inline-block;
+  font-size: 1.6rem;
+}
+
+.hero-img3::after {
+  content: 'Computer Science';
+  display: inline-block;
+  font-size: 1.6rem;
+}
+
+.hero-img4::after {
+  content: 'Programming & AI';
+  display: inline-block;
+  font-size: 1.6rem;
+}
+
+.hero-img5::after {
+  content: 'Science & Engineering';
+  display: inline-block;
+  font-size: 1.6rem;
 }
