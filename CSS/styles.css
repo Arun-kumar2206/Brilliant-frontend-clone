@@ -413,3 +413,38 @@ html{
   border: 1px solid #000;
   border-radius: 3px;
 }
+
+.course-footer{
+  margin-top: 7rem;
+  margin-bottom: 5rem;
+}
+
+
+.course-footer p{
+  color: rgb(140, 138, 138);
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-family: "Open Sans";
+}
+
+.course-footer_companies{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+}
+
+.course-footer_companies img{
+  width: 70px;
+  height: 25px;
+  opacity: 0.4;
+  box-sizing: border-box;
+}
+
+.course-footer_companies p{
+  font-size: 1rem;
+  color: rgb(140, 138, 138);
+  opacity: 0.7;
+  max-width: 60px;
+}
