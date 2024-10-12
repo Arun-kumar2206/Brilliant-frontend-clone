@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Brilliant clone</title>
     <link rel="stylesheet" href="CSS/styles.css" />
     <link rel="stylesheet" href="CSS/normalize.css" />
     <link
@@ -17,5 +17,312 @@
       rel="stylesheet"
     />
   </head>
-  <body></body>
+  <body>
+    <header>
+      <div class="nav-bar">
+        <div class="nav-content container">
+          <div class="nav-logo">
+            <img src="images/logo.png" alt="" width="155px" />
+          </div>
+          <div class="nav-button">
+            <a href="#">Log in</a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="hero-content container grid">
+      <div class="hero-left-content">
+        <div class="hero-heading">
+          <h1>
+            Learn by
+            <div class="hero-highlight">doing</div>
+          </h1>
+        </div>
+        <div class="hero-para">
+          <p>
+            Interactive problem solving that's effective and fun. Get smarter in
+            15 minutes a day.
+          </p>
+        </div>
+        <div class="hero-button">
+          <a href="#">Get started</a>
+        </div>
+      </div>
+      <div class="hero-right-content">
+        <video
+          class="hero-video"
+          autoplay
+          muted
+          loop
+          src="videos/hero.mp4"
+        ></video>
+      </div>
+    </div>
+    <div class="hero-down-content container">
+      <div class="hero-properties hero-img1">
+        <img src="images/maths.png" alt="" />
+      </div>
+      <div class="hero-properties hero-img2">
+        <img src="images/data-analysis.png" alt="" />
+      </div>
+      <div class="hero-properties hero-img3">
+        <img src="images/computer-science.png" alt="" />
+      </div>
+      <div class="hero-properties hero-img4">
+        <img src="images/programming.png" alt="" />
+      </div>
+      <div class="hero-properties hero-img5">
+        <img src="images/science-and-eng.png" alt="" />
+      </div>
+    </div>
+    <div class="rating">
+      <div class="rating-heading">
+        <h2>Join over 10 million people Learning on Brilliant</h2>
+      </div>
+      <div class="rating-content">
+        <div class="rating-companies">
+          <img
+            class="newyork"
+            src="images/new-york-times.webp"
+            alt="the new york times"
+          />
+          <img class="atlantic" src="images/the-atlantic.webp" alt="" />
+        </div>
+        <div class="rating-review">
+          <img
+            class="5-rating"
+            src="images/rating5.png"
+            alt="five star rating"
+          />
+          <p>Over 50,000 5-star reviews on iOS App Store and Google Play</p>
+        </div>
+        <div class="rating-trust">
+          <div>
+            <img class="star" width="20px" src="images/star.png" alt="" />
+            <p class="trustpilot">Trustpilot</p>
+          </div>
+          <img
+            class="rating-4"
+            src="images/rating4.5.png"
+            alt="4.5 rating logo"
+          />
+          <p>TrustScore <strong>4.7 2,153</strong> reviews</p>
+        </div>
+        <div class="rating-os">
+          <img src="images/app-of-the-day.webp" alt="app of the day" />
+          <img src="images/best-app.webp" alt="best app" />
+        </div>
+      </div>
+    </div>
+    <section class="features container-2">
+      <div class="feature-heading">
+        <h2>Master concepts in 15 minutes a day</h2>
+        <p>
+          Whether you're a complete beginner or ready to dive into machine
+          learning and beyond, Brilliant makes it easy to level up fast with
+          fun, bite-sized lessons.
+        </p>
+      </div>
+      <article class="feature feature-1 grid">
+        <div class="feature-video">
+          <video autoplay loop muted src="videos/hands-on-learning.mp4"></video>
+        </div>
+        <div class="feature_content">
+          <h2>Effective, hands-on learning</h2>
+          <p>
+            Visual, interactive lessons make concepts feel intuitive — so even
+            complex ideas just click. Our real time feedback and simple
+            explanations make learning efficient.
+          </p>
+        </div>
+      </article>
+      <article class="feature feature-2 grid">
+        <div class="feature_content">
+          <h2>Learn at your level</h2>
+          <p>
+            Students and professionals alike can hone dormat skills or learn new
+            ones. Progress through lessons and challeges tailored to your level.
+            Designed for ages 13 to 113
+          </p>
+        </div>
+        <div class="feature-video">
+          <img src="images/learn-at-your-level.png" alt="" />
+        </div>
+      </article>
+      <article class="feature feature-3 grid">
+        <div class="feature-video">
+          <img src="images/guided-lessons.png" alt="" />
+        </div>
+        <div class="feature_content">
+          <h2>Guided bite-sized lessons</h2>
+          <p>
+            We make it easy to stay on track, see your progress, and build your
+            problem-solving skills one concept at a time.
+          </p>
+        </div>
+      </article>
+      <article class="feature feature-4 grid">
+        <div class="feature_content">
+          <h2>Stay motivated</h2>
+          <p>
+            Form a real learning habit with fun content that’s always
+            well-paced, game-like progress tracking, and friendly reminders.
+          </p>
+        </div>
+        <div class="feature-video">
+          <img src="images/stay-motivated.png" alt="" />
+        </div>
+      </article>
+    </section>
+    <div class="courses">
+      <div class="container">
+        <div class="course-heading">
+          <h2>Guided courses for every journey</h2>
+        </div>
+        <div class="course-subjects">
+          <p tabindex="0">Math</p>
+          <p tabindex="0">Data Analysis</p>
+          <p tabindex="0">CS & Programming</p>
+          <p tabindex="0">Science</p>
+          <p tabindex="0">Electives</p>
+        </div>
+        <div class="course-content">
+          <div class="course-electives">
+            <p>Courses in <strong>Electives</strong></p>
+            <div>
+              <img src="images/quantum-mechanics.png" alt="" />
+              <p>Quantum Mechanics</p>
+            </div>
+            <div>
+              <img src="images/quantum-computing.png" alt="" />
+              <p>Quantum Computing</p>
+            </div>
+            <div>
+              <img src="images/beyond-the-nutshell.png" alt="" />
+              <p>Beyond the Nutshell</p>
+            </div>
+            <div>
+              <img src="images/special-relativity.png" alt="" />
+              <p>Special Relativity</p>
+            </div>
+            <div>
+              <img src="images/math-puzzles.png" alt="" />
+              <p>300+ Math and Science puzzles</p>
+            </div>
+            <div>
+              <img src="images/group-theory.png" alt="" />
+              <p>Group Theory</p>
+            </div>
+            <div>
+              <img src="images/real-engineering.png" alt="" />
+              <p>Real Engineering</p>
+            </div>
+          </div>
+          <div class="course-video">
+            <div class="video-header">
+              <p>ELECTIVES</p>
+            </div>
+            <video autoplay loop muted src="videos/electives.mp4"></video>
+          </div>
+        </div>
+        <div class="course-footer">
+          <p>
+            All of our 70+ courses are crafted by award-winning teachers,
+            researchers, and professionals from:
+          </p>
+          <div class="course-footer_companies">
+            <img src="images/caltech.webp" alt="" />
+            <img src="images/mit.webp" alt="" />
+            <img src="images/duke.webp" alt="" />
+            <img src="images/microsoft.webp" alt="" />
+            <img src="images/google.webp" alt="" />
+            <p>AND MANY MORE...</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="downloads">
+      <div class="download-left-content">
+        <h2>Join over 10 million people learning on Brilliant</h2>
+        <div class="hero-button">
+          <a href="#">Get started</a>
+        </div>
+      </div>
+      <div class="download-right-content">
+        <div class="app-store">
+          <img
+            class="app-store-img"
+            src="images/app-store-download.png"
+            alt=""
+          />
+          <img class="download-rating" src="images/rating5.png" alt="" />
+          <p>10K+ Ratings</p>
+        </div>
+        <div class="play-store">
+          <img class="play-store-img" src="images/google-play.png" alt="" />
+          <img class="download-rating" src="images/rating5.png" alt="" />
+          <p>60K+ Ratings</p>
+        </div>
+      </div>
+    </div>
+    <footer class="footer-content">
+      <div class="footer-top-content">
+        <div class="footer-logo">
+          <img src="images/footer logo.jpg" alt="" />
+        </div>
+        <div class="footer-collapsibiles">
+          <div class="footer-row">
+            <div class="footer-column">
+              <h2>Product</h2>
+              <ul>
+                <li><a href="#">Courses</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Testimonials</a></li>
+                <li><a href="#">Help</a></li>
+              </ul>
+            </div>
+            <div class="footer-column">
+              <h2>Company</h2>
+              <ul>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Educators</a></li>
+              </ul>
+            </div>
+            <div class="footer-column">
+              <div class="social-links">
+                <a href="#" aria-label="Facebook"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+                <a href="#" aria-label="Instagram"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+                <a href="#" aria-label="Twitter"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+                <a href="#" aria-label="LinkedIn"
+                  ><i class="fab fa-linkedin-in"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-down-content">
+        <div class="footer-down-left">
+          <ul>
+            <li><a href="#">Terms of service</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">California privacy policy</a></li>
+          </ul>
+        </div>
+        <div class="footer-down-right">
+          <p>
+            ©2024 Brilliant Worldwide, Inc., Brilliant and the Brilliant Logo
+            are trademarks of Brilliant Worldwide, Inc.
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>

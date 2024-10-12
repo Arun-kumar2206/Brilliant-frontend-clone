@@ -110,13 +110,12 @@ html{
   width: 100%;
 }
 
-
-
 .hero-down-content{
   display: flex;
   justify-content: space-between;
   font-family: "Montserrat";
   font-weight: 500;
+  margin-bottom: 6rem;
 }
 
 .hero-properties{
@@ -343,7 +342,6 @@ html{
   font-family: "Lato";
   transition: all 0.2s;
   align-items: center;
-  
 }
 
 .course-subjects{
